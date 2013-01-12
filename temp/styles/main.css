@@ -1,0 +1,21 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+@-webkit-keyframes wink {
+  /* line 5, ../../app/styles/main.scss */
+  from {
+    background-position: 0%;
+  }
+
+  /* line 6, ../../app/styles/main.scss */
+  to {
+    background-position: -400%;
+  }
+}
+
+/* line 24, ../../app/styles/main.scss */
+.box_face {
+  background-size: 100px 100px;
+}
+/* line 27, ../../app/styles/main.scss */
+.box_face img {
+  width: 100%;
+}

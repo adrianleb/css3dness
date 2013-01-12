@@ -1,0 +1,30 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+
+
+@-webkit-keyframes wink {
+    from { background-position: 0%; }
+    to { background-position: -400%; }
+}
+
+
+// .animation {
+//   width: 180px;
+//   height: 180px;
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   margin: -45px 0 0 -45px;
+//   -webkit-animation: wink 1s steps(4) infinite;
+//   -webkit-animation-ease: linear;
+//   background-size: cover;
+//   // background-color: red;
+//   // background-image: url('/seq1.png');
+
+// }
+.box_face {
+  // background-image: url('http://placekitten.com/1000/1000')!important;
+  background-size: 100px 100px;
+  img {
+    width: 100%;
+  }
+}
